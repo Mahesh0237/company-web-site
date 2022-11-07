@@ -4,19 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Page</title>
+			<!--bootstrap cdn link-->
 	   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  	
+
+  			<!--bootstrap script tag-->
   	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  	  			<!--Google fonts link-->
   	  <link rel="stylesheet" type="text/css" href="styles.css">
   	  <style>
 			@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 		</style>
-		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+				<!--bootstrap font icon link-->
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 
 </head>
 <body>
-
+				<!--navbar-->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container-fluid">
 				<a href="" class="navbar-brand ms-3 " style="color: #ebbd34;">IHUBTALENT</a>
@@ -26,8 +32,8 @@
 					<li class="nav-item mx-auto"><a href="#home" class="nav-link"> HOME</a></li>
 					<li class="nav-item mx-auto"><a href="#service" class="nav-link"> SERVICES</a></li>
 					<li class="nav-item mx-auto"><a href="#portfolio" class="nav-link"> PORTFOLIO</a></li>
-					<li class="nav-item mx-auto"><a href="" class="nav-link"> ABOUT</a></li>
 					<li class="nav-item mx-auto"><a href="#team" class="nav-link"> TEAM</a></li>
+					<li class="nav-item mx-auto"><a href="#gallery" class="nav-link"> GALLERY</a></li>
 					<li class="nav-item mx-auto"><a href="#contact" class="nav-link"> CONTACT</a></li>
 				</ul>
 				
@@ -35,46 +41,70 @@
 
 		</nav><br>
 		<br>
+					<!--home section start-->
 		<section class="home-section" id="home">
 				<h2 >Welecome To Our UI Project</h2>
-				<h1>It is Great Experience For You</h1>
-				<button class="btn btn-warning text-white  " >SUBSCRIBE</button>
-		</section>
+				<h1>It is Great Experience For us</h1>
+				<button class="btn btn-info text-dark">SUBSCRIBE</button>
+		</section><!--home section ends-->
 
+			<!--service section starts-->
 		<section class="service-section pt-5" id="service">
-			<h3 class="pt-2">SERVICES</h3>
-			<p>Our Services Represent Our Identity</p>
-			<div class="flex-container">
-				<div class="item">
-					<br>
-					<span class="bi-twitter"></span><br><br>
-					<h5>E-Commerce</h5>
-					<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl</p>
-				</div>
-				<div class="item">
-					<br>
-					<span class="bi-youtube"></span><br><br>
-					<h5>Responsive Design</h5>
-					<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl</p>
-				</div>	
-				<div class="item">
-					<br>
-					<span class="bi-lock"></span><br><br>
-					<h5>Web Security</h5>
-					<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl</p>
-				</div>	
-			</div>
-			
-		</section>
+			<h3 class="pt-2 text-center">SERVICES</h3>
+			<h5 class="text-center">Our Services Represent Our Identity</h5>
+			<div class="container pt-4">
+					<!--Bootstrap Grid-->
+				<div class="row pt-3">
+							<!--service1-->
+					<div class="col-lg-4 col-sm-12">
+						<span class="bi bi-cart text-white  bg-primary p-3 "id="cart" >
+						</span>
+						<div class="mt-4">
+							<h3 class="text-center">E-commerce</h3>
+							<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl and get your website ready, user friendly.</p>
+						</div>
+					</div><!--service1 end -->
 
+							<!--service2-->
+					<div class="col-lg-4 col-sm-12" id="Mservice">
+						<span class="bi bi-laptop text-white text-center bg-primary p-3 " id="cart">
+						</span>
+						<div>
+							<h3 class="mt-4 text-center">E-commerce</h3>
+							<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl and get your website ready, user friendly.</p>
+						</div>
+					</div><!--service2 end-->
+
+								<!--service3-->
+					<div class="col-lg-4 col-sm-12">
+						<span class="bi bi-lock text-white text-center bg-primary p-3 " id="cart">
+						</span>
+						<div>
+							<h3 class="mt-4 text-center">E-commerce</h3>
+							<p class="text-center">get your website ready, user friendly. responsive search engine friendly by proffesionals with many other dynamic features for website which will increase traffic easy. fast & affordabl and get your website ready, user friendly.</p>
+						</div>
+					
+					</div><!--service3 end -->
+			
+				</div><!--Bootstrap Grid end -->
+			</div>
+		
+			
+		</section><!--service section ends-->
+
+					<!--portfolio section starts-->
 		<section class="portfolio-section pt-5" id="portfolio">
 			<h3 class="pt-4">PORTFOLIO</h3>
 			<p>Our Services Represent Our Identity</p>
 				<div class="container">
+				<!--Bootstrap Grid starts-->
+					<!--row-1 starts-->
 				<div class="row">
-					<div class="col-4">
+						<!--colomn-1 -->
+					<div class="col-lg-4 col-md-6">
+						<!--Bootstrap card start-->
 						<div class="card">
-							<img src="images/image9.jpg" height="350px" width="100%"/>
+							<img src="images/image2.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>Threads</h3>
@@ -82,14 +112,15 @@
 								<div class="card-text text-center">
 									illustrations
 								</div>
-								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 					</div>
-					<div class="col-4">
+						<!--colomn-2 -->
+					<div class="col-lg-4 col-md-6 port">
+						<!--Bootstrap card start-->
 							<div class="card">
-							<img src="images/image10.jpg" height="350px" width="100%"/>
+							<img src="images/image3.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>Explore</h3>
@@ -100,12 +131,14 @@
 								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 
 					</div>
-					<div class="col-4">
+						<!--colomn-3 -->
+					<div class="col-lg-4 col-md-6">
+						<!--Bootstrap card start-->
 						<div class="card">
-							<img src="images/image11.jpg" height="350px" width="100%"/>
+							<img src="images/image4.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>Finish</h3>
@@ -116,14 +149,17 @@
 								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 					</div>
-				</div>
+				</div><!--row-1 ends-->
 
+					<!--row-2 starts-->
 				<div class="row mt-5">
-					<div class="col-4">
+						<!--colomn-1 -->
+					<div class="col-lg-4 col-md-6">
+						<!--Bootstrap card start-->
 						<div class="card">
-							<img src="images/image12.jpg" height="350px" width="100%"/>
+							<img src="images/image5.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>Windows</h3>
@@ -134,11 +170,14 @@
 								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 					</div>
-					<div class="col-4">
-							<div class="card">
-							<img src="images/image13.jpg" height="350px" width="100%"/>
+						
+						<!--colomn-2 -->
+					<div class="col-lg-4 col-md-6 port">
+						<!--Bootstrap card start-->
+						<div class="card">
+							<img src="images/image6.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>Lines</h3>
@@ -149,12 +188,14 @@
 								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 
 					</div>
-					<div class="col-4">
+						<!--colomn-3 -->
+					<div class="col-lg-4 col-md-6">
+						<!--Bootstrap card start-->
 						<div class="card">
-							<img src="images/image14.jpg" height="350px" width="100%"/>
+							<img src="images/image7.jpg" height="350px" width="100%"/>
 							<div class="card-body">
 								<div class="card-title text-center">
 									<h3>South West</h3>
@@ -165,78 +206,163 @@
 								
 							</div>
 							
-						</div>
+						</div><!--Bootstrap card ends-->
 					</div>
-				</div>
-				</div>
-		</section>
-		<section class="team-section" id="team">
-			<h2 class="text-center">OUR AMAZING TEAM</h2>
-			<p class="text-center">Our Team Is Ladder Of Success</p>
-			<div class="flex-container">
-				<div class="item">
-					<img src="images/image8.jpg" class="h-25 w-50 rounded-circle">
-					<h5 class="mt-4">Alan Morries</h5>
-					<p>Lead Designer</p>
-				</div>
-				<div class="item">
-					<img src="images/image8.jpg" class="h-25 w-50 rounded-circle">
-					<h5 class="mt-4">Erick Anderson</h5>
-					<p>Team Lead</p>
-				</div>
-				<div class="item">
-					<img src="images/image8.jpg" class="h-25 w-50 rounded-circle">
-					<h5 class="mt-4">Anna Julie</h5>
-					<p>Manger</p>
-				</div>
-				
-			</div>
+				</div><!--row-2 ends-->
 
-		</section>
+				</div>
+
+		</section><!--portfolio section ends-->
+
+			<!-- Team Section starts-->
+			<section class="team-section pt-5 " id="team">
+			        <div class="container text-center">
+			        <h2>OUR AMAZING TEAM</h2>
+			        <p>Our Team Is Ladder Of Success</p>
+			        <!-- create a  row -->
+			        <div class="row teamsetting">
+			        <!-- create a column 1 -->
+			        <div class="col-lg-4 col-md-4 col-sm-4 d-block m-auto">
+			            <figure class="figure">
+			                <!-- image -->
+			<img src="images/image8.jpg" class=" img-fluid mb-3"/>
+			            <figcaption>
+			                <h4>Alan Morries</h4>
+			                <p class="figure-caption"><b>Lead Designer</b></p>
+			            </figcaption>
+			            </figure>
+			        </div>
+
+			        <!-- create a column 2-->
+			        <div class="col-lg-4 col-md-4 col-sm-4 d-block m-auto">
+			            <figure class="figure">
+			                <!-- image -->
+			<img src="images/image8.jpg" class=" img-fluid mb-3"/>
+			            <figcaption >
+			                <h4>Erick Anderson</h4>
+			                <p class="figure-caption"><b>Team Lead</b></p>
+			            </figcaption>
+			            </figure>
+			        </div>
+
+			         <!-- create a column 3 -->
+			        <div class="col-lg-4 col-md-4 col-sm-4 d-block m-auto">
+			            <figure class="figure">
+			                <!-- image -->
+			<img src="images/image8.jpg" class=" img-fluid mb-3"/>
+			            <figcaption>
+			                <h4>Anna Julie</h4>
+			                <p class="figure-caption"><b>Manager</b></p>
+			            </figcaption>
+			            </figure>
+			        </div>
+			        </div>
+			    </div>
+			</section><!-- Team Section ends-->
+
+				<!--Gallery section starts-->
+			<section class="carousel-section p-5" id="gallery">
+			<div class="container">
+				<h2 class="text-center " style="font-style: italic;">GALLERY SECTION</h2>
+			<div id="demo" class="carousel slide" text-center data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button  class="active" data-bs-target="#demo" data-bs-slide-to="0"></button>
+					<button  data-bs-target="#demo" data-bs-slide-to="1"></button>
+					<button  data-bs-target="#demo" data-bs-slide-to="2"></button>
+				</div>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active" >
+						<img src="images/image9.jpg "  class=" w-100 mx-auto d-block"/>
+					</div>
+					<div class="carousel-item">
+						<img src="images/image10.jpg" class="w-100 mx-auto d-block"/>
+					</div>
+					<div class="carousel-item">
+						<img src="images/image11.jpg" class="w-100 mx-auto d-block"/>
+					</div>
+
+				</div>
+				<button class="carousel-control-prev" type=" button" data-bs-target="#demo" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next"  type=" button" data-bs-target="#demo" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+		</div>
+
+		</section><!--Gallery section starts-->
+
+				<!--contact section starts-->
 		<section class="contact-section bg-light" id="contact">
-			<h5 class="text-center pt-5" style="font-size:30px; color: red;"><u>CONTACTUS</u></h5>
-			<div class="flex-container">
-				<div class="item">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.951067750822!2d78.4358479227472!3d17.436353108786907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb919633f78bef%3A0xbb63515db9bc2eba!2siHub%20Talent%20(Innovative%20Placement%20Solutions)!5e0!3m2!1sen!2sin!4v1664707076597!5m2!1sen!2sin" width="430" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-				<div class="item">
-					<h4 class="text-center">FEEDBACK</h4>
-					<form>
-					<div class="row">
-						<div class="col-6 ">
-							<input type="text" name="" placeholder="Name" class="ms-5"/>
-						</div>
-						<div class="col-6">
-							<input type="text" name="" placeholder="Email" />
-						</div>
+			<h5 class="text-center pt-5 mb-4" style="font-size:25px; color: black;font-family: !important;">CONTACT US</h5>
+			<div class="container">
+				<!--Bootstrap Grid starts-->
+					<!--row -->
+				<div class="row">
+						<!--coloumn-1 -->
+					<div class="col-lg-6 col-sm-12 map">
+							<!--iframe-->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.951067750822!2d78.4358479227472!3d17.436353108786907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb919633f78bef%3A0xbb63515db9bc2eba!2siHub%20Talent%20(Innovative%20Placement%20Solutions)!5e0!3m2!1sen!2sin!4v1664707076597!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
-					<div class="row mt-3">
-						<div class="col-6">
-							<input type="text" name="" placeholder="Phone" class="ms-5"/>
-						</div>
-						<div class="col-6">
-							<input type="text" name="" placeholder="Subject" required />
-						</div>
-					</div>
-					<div class="row mt-3">
-						<div class="col">
-							<textarea rows="5" cols="52" class="ms-5" placeholder="Message"></textarea>
-						</div>
-						
-					</div>
-					<div class="row mt-3">
-						<div class="col">
-							<input type="button" value="submit" name="" placeholder="Send Message" id="button">
-						</div>
-					</div>
-					</form>
-				</div>
-			</div>
-		</section>
+							<!--coloumn-2 -->
+					<div class="col-lg-6 col-sm-12">
+							
+						<form>
+							<!--Bootstrap grid-->
+							<!--row-1 starts -->
+							<div class="row">
+								<!--col-1-->
+								<div class="col">
+									
+									<input type="text" class="form-control" placeholder="Name" w-100 required />
+									
+								</div>
+									<!--col-2-->
+								<div class="col">
 
+									<input type="text" class="form-control" placeholder="E-Mail" w-100 required />
+								</div>
+								
+							</div><!--row-1 ends -->
+
+								<!--row-2 starts-->
+							<div class="row mt-3">
+								<!--col-3-->
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Phone" w-100 required />
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="subject" w-100 required />
+								</div>
+								
+							</div><!--row-2 ends-->
+
+								<!--row-3 starts-->
+							<div class="row mt-3">
+								<div class="col">
+									<textarea rows="5" cols="40" class="form-control" placeholder="Message" required></textarea>
+								</div>
+							</div><!--row-3 ends-->
+
+							<!--row-4 starts-->
+							<div class="row mt-3">
+								<div class="col">
+									<input type="submit" name="" value="SUBMIT" class="btn btn-outline-primary w-100">
+								</div>
+							</div>	<!--row-4 ends-->
+						</form>
+					</div> 	<!--column-2 ends-->
+
+				</div><!--Bootstrap Grid ends-->
+			</div>
+		</section><!--contact section ends-->
+
+				<!--footer section starts-->
 		<footer class="bg-dark text-white text-center">
 			<p class="p-2">Copyright @2022, Design by IHUBTalent</p>
-		</footer>
+		</footer><!--footer section ends-->
 
 </body>
 </html>
